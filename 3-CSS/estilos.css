@@ -1,0 +1,64 @@
+/*
+selector{
+    propiedad:_ valor;
+}
+*/
+h1{
+    color: red;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 20px;
+}
+header{
+    background-color: skyblue;
+}
+.item-header{
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+}
+.lista-header{
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 760px){
+    img{
+        width: 20%;
+    }
+}
+    
+a.btn-curso {
+    font-size: 20px;
+    border: 2px solid blue;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    }
+
+a.btn-curso:hover{
+    background-color: blue;
+    color: white;
+}
+
+.contenedor-botones-cursos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul.lista-header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+img {
+    width: 30%;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+}
